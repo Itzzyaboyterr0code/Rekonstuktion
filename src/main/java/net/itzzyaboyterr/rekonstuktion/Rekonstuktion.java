@@ -1,6 +1,7 @@
 package net.itzzyaboyterr.rekonstuktion;
 
 import net.fabricmc.api.ModInitializer;
+import net.itzzyaboyterr.rekonstuktion.block.ModBlocks;
 import net.itzzyaboyterr.rekonstuktion.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ public class Rekonstuktion implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
