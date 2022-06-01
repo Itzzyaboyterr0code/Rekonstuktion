@@ -17,6 +17,9 @@ public class ModBlocks {
     public static final Block OCTA_WOOL = registerBlock("octa_wool",
             new Block(FabricBlockSettings.of(Material.WOOL).strength(2f)), ModItemGroup.REKONSTUKTION);
 
+    public static final Block ROCK = registerBlock("rock",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).nonOpaque().noCollision()), ModItemGroup.REKONSTUKTION);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

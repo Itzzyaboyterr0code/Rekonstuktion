@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "rekonstuktion:rock_shard"
+    }
+  },
+  "result": {
+    "item": "rekonstuktion:rock"
+  }
+}

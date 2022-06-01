@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/#",
+    "#/"
+  ],
+  "key": {
+    "#": {
+      "item": "rekonstuktion:rock_shard"
+    },
+    "/": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "rekonstuktion:octa_wool",
+    "count": 2
+  }
+}
