@@ -3,6 +3,7 @@ package net.itzzyaboyterr.rekonstuktion.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.itzzyaboyterr.rekonstuktion.Rekonstuktion;
+import net.itzzyaboyterr.rekonstuktion.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -14,7 +15,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block OCTA_WOOL = registerBlock("octa_wool",
-            new Block(FabricBlockSettings.of(Material.WOOL).strength(2f)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(2f)), ModItemGroup.REKONSTUKTION);
 
 
 

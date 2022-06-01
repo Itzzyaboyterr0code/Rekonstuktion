@@ -2,6 +2,8 @@
   "item.rekonstuktion.rock_shard": "Rock Shard",
 
 
-  "block.rekonstuktion.octa_wool": "Octa Wool"
+  "block.rekonstuktion.octa_wool": "Octa Wool",
+
+  "itemGroup.rekonstuktion.rekonstuktion": "Rekonstruktion Creative Tab"
 
 }
