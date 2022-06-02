@@ -15,10 +15,10 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block OCTA_WOOL = registerBlock("octa_wool",
-            new Block(FabricBlockSettings.of(Material.WOOL).strength(2f)), ModItemGroup.REKONSTUKTION);
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(1f)), ModItemGroup.REKONSTUKTION);
 
     public static final Block ROCK = registerBlock("rock",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).nonOpaque().noCollision()), ModItemGroup.REKONSTUKTION);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).nonOpaque().noCollision()), ModItemGroup.REKONSTUKTION);
 
 
 
